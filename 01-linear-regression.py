@@ -2,9 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# %matplotlib inline
 
-raw_data = pd.read_csv('Housing_Data.csv')
+raw_data = pd.read_csv('USA_Housing.csv')
 x = raw_data[['Avg. Area Income', 'Avg. Area House Age', 'Avg. Area Number of Rooms',
        'Avg. Area Number of Bedrooms', 'Area Population']]
 y = raw_data['Price']

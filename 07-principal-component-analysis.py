@@ -3,7 +3,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 import seaborn
-%matplotlib inline
+# %matplotlib inline
 
 from sklearn.datasets import load_breast_cancer
 raw_data = load_breast_cancer()

@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# %matplotlib inline
 
 #Import the data set
 raw_data = pd.read_csv('classified_data.csv', index_col = 0)

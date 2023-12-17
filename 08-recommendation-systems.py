@@ -5,7 +5,7 @@ import numpy as np
 #Visualization imports
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# %matplotlib inline
 
 #Import the data
 raw_data = pd.read_csv('u.data', sep = '\t', names = ['user_id', 'item_id', 'rating', 'timestamp'])

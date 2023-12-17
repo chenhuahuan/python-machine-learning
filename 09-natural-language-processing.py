@@ -11,7 +11,7 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# %matplotlib inline
 
 #Create our DataFrame
 data_frame = pd.read_csv('SMSSpamCollection', sep = '\t', names = ['type', 'message'])

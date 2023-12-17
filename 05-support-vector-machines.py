@@ -4,7 +4,7 @@ import numpy as np
 
 #Visualization imports
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 import seaborn as sns
 
 #Import the data set from scikit-learn

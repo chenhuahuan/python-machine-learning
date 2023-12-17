@@ -5,7 +5,7 @@ import numpy as np
 #Visalization libraries
 import matplotlib.pyplot as plt
 import seaborn as sns
-%matplotlib inline
+# %matplotlib inline
 
 raw_data = pd.read_csv('kyphosis-data.csv')
 raw_data.columns

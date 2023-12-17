@@ -9,7 +9,7 @@ import numpy as np
 #Visualization imports
 import seaborn
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 
 #Visualize the data
 plt.scatter(raw_data[0][:,0], raw_data[0][:,1])
